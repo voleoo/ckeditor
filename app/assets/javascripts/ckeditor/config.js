@@ -89,4 +89,6 @@ CKEDITOR.editorConfig = function( config )
       }
     }
   });
+  // add some plugin here
+  config.extraPlugins = 'codemirror';
 };
